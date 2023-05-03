@@ -10,3 +10,8 @@ tkinter, tkcalendar, pandas, datetime, regex
 4. Add or remove staff in real-time
 5. Export data out in CSV (Comma-Separated Values) format
 6. Backup and load database
+
+## Screenshots
+
+![Screenshot 1](https://github.com/twelvebarsblue/staff_management_system/tree/main/Screenshot/1.png?raw=true)
+![Screenshot 2](https://github.com/twelvebarsblue/staff_management_system/tree/main/Screenshot/2.png?raw=true)
