@@ -12,6 +12,5 @@ tkinter, tkcalendar, pandas, datetime, regex
 6. Backup and load database
 
 ## Screenshots
-
-![Screenshot 1](https://github.com/twelvebarsblue/staff_management_system/tree/main/Screenshot/1.png)
-![Screenshot 2](https://github.com/twelvebarsblue/staff_management_system/tree/main/Screenshot/2.png)
+![1](https://user-images.githubusercontent.com/67096905/235821812-8b28c2a5-ff84-45d8-b5b6-b9bf9e0f9560.png)
+![2](https://user-images.githubusercontent.com/67096905/235821827-493d77c0-d57b-4676-808c-b8e8285840ad.png)
