@@ -13,5 +13,5 @@ tkinter, tkcalendar, pandas, datetime, regex
 
 ## Screenshots
 
-![Screenshot 1](https://github.com/twelvebarsblue/staff_management_system/tree/main/Screenshot/1.png?raw=true)
-![Screenshot 2](https://github.com/twelvebarsblue/staff_management_system/tree/main/Screenshot/2.png?raw=true)
+![Screenshot 1](https://github.com/twelvebarsblue/staff_management_system/tree/main/Screenshot/1.png)
+![Screenshot 2](https://github.com/twelvebarsblue/staff_management_system/tree/main/Screenshot/2.png)
