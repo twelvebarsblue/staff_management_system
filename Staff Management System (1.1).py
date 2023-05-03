@@ -7,10 +7,6 @@ from datetime import datetime
 import re
 import os
 
-# Theme
-
-import sv_ttk
-
 sms_version = "1.1"
 
 # Create The Gui Object
@@ -32,13 +28,6 @@ cal2 = Calendar(tk, selectmode='day',
                day=1)
 cal2.place(x=250,y=0)
 
-# # Dark and Light Mode
-
-# sv_ttk.use_light_theme()
-
-# button = ttk.Button(tk, text="Toggle theme", command=sv_ttk.toggle_theme)
-# button.pack()
-
 # Popup message
 
 def popupmsg(title,msg):
@@ -50,7 +39,6 @@ def popupmsg(title,msg):
     B1.pack()
     popup.mainloop()
 
-    
 # Files location
 
 staff_csv = 'Staff/staff.csv'
@@ -204,7 +192,6 @@ def staff_clear():
     
 ttk.Button(tk, text="Clear All (Staff)", command=staff_clear).place(x=0, y=550)
 
-
 # Export staff to csv
 
 def export_staff_csv():
@@ -256,7 +243,6 @@ def export_staff_date_csv():
 
 ttk.Button(tk, text="Export CSV (Staff + Date)", command=export_staff_date_csv).place(x=0, y=640)
 
-          
 # Add or remove staff
 
 Label(tk, text="Add/Remove Staff: ").place(x=580, y=200)
@@ -309,7 +295,6 @@ def delete_staff():
 
 
 ttk.Button(tk, text="Remove", command=delete_staff).place(x=611, y=250)
-
 
 # Backup
 
@@ -379,8 +364,6 @@ ttk.Button(tk, text="Backup Current", command=backup_database).place(x=595, y=55
 
 
 # Output
-
-
 
 def view_date():
     # Init text box
@@ -459,11 +442,9 @@ def view_staff():
 
 Button(tk, text="By Staff", command=view_staff).pack(anchor = "s", side=LEFT)
 
-
 # About
     
 Button(tk, text="About", command=lambda: popupmsg("About", f"Staff Management System\nVersion {sms_version} (April 2023)")).pack(anchor = "s", side=RIGHT)
-
 
 # Close Output Screen
 
@@ -477,4 +458,5 @@ def close_output_screen():
 Button(tk, text="Close Screen", command = close_output_screen).pack(anchor = "s", side=RIGHT)
 
 # Execute Tkinter
+
 tk.mainloop()
