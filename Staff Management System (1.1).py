@@ -462,7 +462,7 @@ Button(tk, text="By Staff", command=view_staff).pack(anchor = "s", side=LEFT)
 
 # About
     
-Button(tk, text="About", command=lambda: popupmsg("About", f"Staff Management System\nAuthor: Ten Yi Yang, under the supervision of Dr. Low Ee Vien\nEmail: tenyiyang.psh@moh.gov.my\nVersion {sms_version} (April 2023)")).pack(anchor = "s", side=RIGHT)
+Button(tk, text="About", command=lambda: popupmsg("About", f"Staff Management System\nVersion {sms_version} (April 2023)")).pack(anchor = "s", side=RIGHT)
 
 
 # Close Output Screen
